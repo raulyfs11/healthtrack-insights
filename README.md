@@ -1,13 +1,13 @@
 
-# 🧠 HealthTrack Insights – Behavioral Analytics Project
+# HealthTrack Insights – Behavioral Analytics Project
 
-## 📌 Project Purpose
+## Project Purpose
 
 **HealthTrack Insights** is a data analytics project simulating a real-world wellness app. It aims to uncover behavioral patterns, engagement risks, and wellness outcomes based on 25,000+ user logs. The project transforms raw multi-table logs into clean relational datasets, generating insights and dashboards that support retention strategies and user segmentation.
 
 ---
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 This project includes five interconnected tables extracted from simulated app telemetry:
 
@@ -21,7 +21,7 @@ This project includes five interconnected tables extracted from simulated app te
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Python (Pandas, Seaborn, Matplotlib)
 - SQL (MySQL)
@@ -31,7 +31,7 @@ This project includes five interconnected tables extracted from simulated app te
 
 ---
 
-## 🔄 Project Pipeline
+## Project Pipeline
 
 1. **Raw ingestion:** Multi-table .csv from a simulated health app  
 2. **Cleaning:** `01_cleaning_healthtrack.sql` cleans and normalizes data  
@@ -41,7 +41,7 @@ This project includes five interconnected tables extracted from simulated app te
 
 ---
 
-## 📈 Key Visuals
+## Key Visuals
 
 ### User Demographics
 ![Gender Distribution](images/gender_distribution.png)
@@ -56,16 +56,16 @@ This project includes five interconnected tables extracted from simulated app te
 
 ---
 
-## 📊 Business Takeaways
+## Business Takeaways
 
-- 💤 **Sleep Quality Drives Engagement:** Users with sleep scores above 85 show ~17% more activity.
-- 🍽️ **Meal Logging Predicts Retention:** Frequent meal loggers (5+/week) retain 35% more users.
-- 📉 **Churn Signals Detected:** 23% of users neither log meals nor engage, indicating drop-off risk.
-- 💬 **Notifications & Challenges Win:** Most common user interactions are passive (clicks) and motivational (joining challenges).
+- **Sleep Quality Drives Engagement:** Users with sleep scores above 85 show ~17% more activity.
+- **Meal Logging Predicts Retention:** Frequent meal loggers (5+/week) retain 35% more users.
+- **Churn Signals Detected:** 23% of users neither log meals nor engage, indicating drop-off risk.
+- **Notifications & Challenges Win:** Most common user interactions are passive (clicks) and motivational (joining challenges).
 
 ---
 
-## 📈 Hypothetical Business Impact Scenarios
+## Hypothetical Business Impact Scenarios
 
 ### 1. Improve Engagement via Sleep Nudges
 - **Avg Sleep Score (Free):** 74.1 → **Target:** 79.0
@@ -84,23 +84,7 @@ This project includes five interconnected tables extracted from simulated app te
 
 ---
 
-## 📘 Folder Structure
-
-```
-📁 raw_data/                 # Original CSV logs
-📁 clean_data/               # Cleaned tables
-📁 sql/
-│   ├── 01_cleaning_healthtrack.sql
-│   └── 02_insights_queries.sql
-📁 notebooks/
-│   └── EDA.ipynb
-📁 images/                   # Dashboards and visual charts
-README.md
-```
-
----
-
-## 🔍 How to Run This Project
+## How to Run This Project
 
 1. Clone the repository:
 ```bash
@@ -119,7 +103,7 @@ jupyter notebook notebooks/EDA.ipynb
 
 ---
 
-## ⚠️ Limitations and Considerations
+## Limitations and Considerations
 
 - Dataset does not include app usage frequency, cancellation dates, or survey feedback.
 - Meal logging behavior is assumed binary (logged vs not), without nutrition breakdown.
@@ -128,6 +112,6 @@ jupyter notebook notebooks/EDA.ipynb
 
 ---
 
-## 📌 Final Note
+## Final Note
 
 This project demonstrates end-to-end data storytelling, blending SQL-based transformation, Python analytics, and visual business reporting — tailored for health product strategy and behavioral science applications.
