@@ -34,9 +34,9 @@ This project includes five interconnected tables extracted from simulated app te
 ## Project Pipeline
 
 1. **Raw ingestion:** Multi-table .csv from a simulated health app  
-2. **Cleaning:** `01_cleaning_healthtrack.sql` cleans and normalizes data  
+2. **Cleaning:** `cleaning_healthtrack.sql` cleans and normalizes data  
 3. **EDA & Visualization:** `EDA.ipynb` with descriptive stats + dashboards  
-4. **Insights Extraction:** SQL queries in `02_insights_queries.sql`  
+4. **Insights Extraction:** SQL queries in `insights_queries.sql`  
 5. **Visual Reporting:** Dashboards embedded in executive summary
 
 ---
